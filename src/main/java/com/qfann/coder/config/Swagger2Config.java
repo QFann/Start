@@ -35,8 +35,8 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder().title("springBoot-Swagger2集成和使用Demo示例")
-                .description("qfann|齐帆")
-                .contact(new Contact("qfann","http://127.0.0.1","15620525185@163.com"))
+                .description("qfann|qfann")
+                .contact(new Contact("qfann","http://127.0.0.1","yourEmail@xxx.com"))
                 .version("1.0.0").build();
     }
 }
